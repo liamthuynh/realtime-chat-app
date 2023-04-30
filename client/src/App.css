@@ -1,0 +1,59 @@
+html * {
+  font-family: Arial;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(34, 40, 49);
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 62, 70);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(0, 173, 181);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-outline {
+  color: rgb(238, 238, 238);
+  border: 1px solid rgb(0, 173, 181);
+  background: rgb(57, 62, 70);
+}
+
+.btn-primary {
+  background: rgb(0, 173, 181);
+  color: rgb(238, 238, 238);
+}
+
+.btn-secondary {
+  background: rgb(238, 238, 238);
+  color: rgb(34, 40, 49);
+}
+
