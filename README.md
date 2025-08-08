@@ -2,7 +2,7 @@
 
 Built with React, Express.js, SocketIO and HarperDB.
 
-Blaine Steck, Melisa Nguyen and Thuy Huynh authored this project for the CS5546 class, University of Missouri - Kansas City.
+Blaine Steck, Melisa Nguyen and Liam Huynh authored this project for the CS5546 class, University of Missouri - Kansas City.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
